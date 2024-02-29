@@ -1,5 +1,5 @@
 {
-  "name": "react-native-vision-camera",
+  "name": "bfe-react-native-vision-camera",
   "version": "3.9.0",
   "description": "A powerful, high-performance React Native Camera library.",
   "main": "lib/commonjs/index",
@@ -74,11 +74,11 @@
     "processing",
     "realtime"
   ],
-  "repository": "https://github.com/mrousavy/react-native-vision-camera",
-  "author": "Marc Rousavy <me@mrousavy.com> (https://github.com/mrousavy)",
+  "repository": "https://github.com/jarbozhang/react-native-vision-camera",
+  "author": "jarbo.zhang<jarbo.zhang@gmail.com> (https://github.com/jarbozhang)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mrousavy/react-native-vision-camera/issues"
+    "url": "https://github.com/jarbozhang/react-native-vision-camera/issues"
   },
   "homepage": "https://react-native-vision-camera.com/",
   "publishConfig": {
