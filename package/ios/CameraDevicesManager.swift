@@ -79,6 +79,10 @@ class CameraDevicesManager: RCTEventEmitter {
     if #available(iOS 15.4, *) {
       deviceTypes.append(.builtInLiDARDepthCamera)
     }
+    if #available(iOS 17.0, *) {
+      deviceTypes.append(.external)
+      deviceTypes.append(.continuityCamera)
+    }
 
     // iOS 17 specifics:
     //  This is only reported if `NSCameraUseExternalDeviceType` is set to true in Info.plist,
